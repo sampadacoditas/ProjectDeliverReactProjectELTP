@@ -1,0 +1,38 @@
+.searchInputs
+{
+    margin-top: .5rem;
+    display:flex;
+    position: relative;
+    .searchBarInputs
+    {
+        background-color: aliceblue;
+        border: 0;
+        border-radius: 2rem;
+        font-size: 1em;
+        padding: 1em;
+        height: 1em;
+        width: 15em;
+        .list
+        {
+            position: absolute;
+            top: 0rem;
+            .listItem
+            {
+                position: absolute;
+                top: 50rem;
+            }
+        }
+    }
+    .searchIcon
+    {
+        height: 2rem;
+        border-radius: 2rem;
+        width: 2rem;
+        background-color: aliceblue;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        right: 0;
+        top: .5em;
+    }
+}

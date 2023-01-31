@@ -1,0 +1,184 @@
+* {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .loginLayout {
+    height: 100vh;
+    width: 100vw;
+    background-color: #053F5C;
+    position: absolute;
+    .loginPageFormAndImage {
+      // border: 2px solid black;
+      height: 83vh;
+      width: 70vw;
+      box-sizing: border-box;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 26px;
+      background-color: white;
+      display: flex;
+      .loginPageImage {
+        background-image: url(https://images.unsplash.com/photo-1527769929977-c341ee9f2033?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+        background-repeat: no-repeat;
+        width: 30vw;
+        border-radius: 26px;
+      }
+      .loginPageForm {
+        .formImg {
+          background-image: url(https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png);
+        }
+        .loginForm {
+          position: absolute;
+          top: 46%;
+          left: 70%;
+          transform: translate(-50%, -50%);
+          // border: 2px solid black;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 40vw;
+          height: 60vh;
+          h2 {
+            text-align: center;
+            font-size: 2rem;
+          }
+          input {
+            padding: 0.5rem 8rem;
+            background: none;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            margin-top: 1%;
+          }
+          label {
+            font-family: Georgia, "Times New Roman", Times, serif;
+          }
+          .emailLabel {
+            font-size: 1.3rem;
+          }
+          .passwordLabel {
+            font-size: 1.3rem;
+            margin-top: 5%;
+          }
+          .loginBtn {
+            background-color: #053F5C;
+            color: white;
+            margin-top: 2%;
+            padding: 1rem 11rem;
+            border: none;
+            border-radius: 16px;
+            font-size: 1.2rem;
+          }
+          .loginBtn:hover {
+            box-shadow: 0 6px 6px #4F000B, 0 6px 0 #002851, -1px 0px 0 #003872,
+              0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1B1B1B;
+            background-color: #8CF504;
+            color: #000;
+          }
+          .signInBtn {
+            background-color: #053F5C;
+            color: white;
+            margin-top: 0%;
+            padding: 1rem 11rem;
+            border: none;
+            border-radius: 16px;
+            font-size: 1.2rem;
+          }
+          .signInBtn:hover {
+            box-shadow: 0 6px 6px #4F000B, 0 6px 0 #002851, -1px 0px 0 #003872,
+              0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1B1B1B;
+            background-color: red;
+          }
+          p {
+            font-size: 1rem;
+            margin-top: 3%;
+          }
+        }
+      }
+    }
+    .signInModel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      .signInForm {
+        position: relative;
+        width: 90vh;
+        height: 76vh;
+        background-color: #429EBD;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+          padding: 0.5rem 8rem;
+          background: none;
+          border: none;
+          border-bottom: 2px solid black;
+          outline: none;
+          margin-top: 1%;
+        }
+        .addNewUserEmailLabel {
+          margin-top: 2%;
+        }
+        .addNewUserPasswordLabel {
+          margin-top: 2%;
+        }
+        .selectYear {
+          margin-top: 2%;
+          padding: 1rem 10rem;
+          background: none;
+          border: none;
+          border-bottom: 2px solid black;
+          // text-align: center;
+        }
+        .selectTrack {
+          margin-top: 2%;
+          padding: 1rem 9.7rem;
+          background: none;
+          border: none;
+          border-bottom: 2px solid black;
+          // text-align: center;
+        }
+        .signInBtnStyling {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+        .registerNewUserBtn {
+          margin-top: 4%;
+          margin-left: -1%;
+          padding: 1rem 4rem;
+        }
+        .closeNewUSerPopupBtn {
+          margin-top: 4%;
+          margin-left: 4%;
+          padding: 1rem 4rem;
+        }
+        button {
+          background-color: #053F5C;
+          color: white;
+          border: none;
+          border-radius: 10px;
+        }
+        .registerNewUserBtn:hover {
+          box-shadow: 0 6px 6px #4F000B, 0 6px 0 #002851, -1px 0px 0 #003872,
+            0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1B1B1B;
+          background-color: #8CF504;
+          color: #000;
+        }
+        .closeNewUSerPopupBtn:hover {
+          box-shadow: 0 6px 6px #4F000B, 0 6px 0 #002851, -1px 0px 0 #003872,
+            0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1B1B1B;
+          background-color: red;
+        }
+      }
+    }
+  }

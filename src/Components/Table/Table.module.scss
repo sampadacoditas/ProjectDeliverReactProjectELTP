@@ -1,0 +1,21 @@
+.table
+{
+  position: absolute;
+  top: 5rem;
+  left: 19rem;
+  border-collapse: collapse;
+  max-width: 900px;
+  width: 40rem;
+  margin: 2rem auto;
+  // color: blue;
+  .th
+  {
+    border:1px solid #dddd;
+    padding: 8px;
+  }
+  td
+  {
+    border:1px solid #dddd;
+    padding: 8px;
+  }
+}

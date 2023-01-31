@@ -1,0 +1,40 @@
+.modalBackground
+{
+background-color: #fff;
+position: absolute;
+top: 0;
+bottom: 0;
+z-index: 10;
+
+.overlay
+{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color:rgba(49,49,49,0.8) ;
+}
+.modal-content
+{
+    position: absolute;
+    width: 12rem;
+    height: 20rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    padding: 2rem;
+   
+   
+}
+.close-btn
+{
+    position: absolute;
+    top: 5%;
+    right: 4%;
+}
+
+}
